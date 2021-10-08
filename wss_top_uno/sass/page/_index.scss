@@ -1,0 +1,242 @@
+
+// 全体的に＆を使い忘れました
+
+// --------------mv--------------------
+
+.mv__bg {
+    background: #ddd;
+    height: 100vh;
+}
+
+// ---------------outline-----------------
+
+.outline {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 230px;
+}
+
+.outline__container {
+    position: relative;
+    top: -100px;
+    width: 1007px;
+    padding: 150px 250px;
+    background: #aaa;
+}
+
+.outline__ttl {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.outline__txt {
+    width: 327px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+.outline__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: $color-black;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-white;
+    text-decoration: none;
+}
+
+
+// ----------course-----------------
+
+.course {
+    position: relative;
+    margin-bottom: 310px;
+}
+
+.course__container {
+    width: 1117px;
+    padding: 150px 0 150px 430px;
+    background: #aaa;
+}
+
+.course__ttl {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.course__txt {
+    width: 437px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+.course__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: $color-black;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-white;
+    text-decoration: none;
+}
+
+.course__pic {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: -1;
+    width: 883px;
+    height: 623px;
+}
+
+.course__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+// -------------------job-------------------
+
+.job {
+    position: relative;
+    margin-bottom: 180px;
+}
+
+.job__pic {
+    width: 883px;
+    height: 623px;
+}
+
+.job__img {
+    width: 100%;
+    height: 100%;
+    object-fit: civer;
+}
+
+
+.job__container {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 1117px;
+    padding: 150px 0 150px 180px;
+    background: #aaa;
+}
+
+.job__ttl {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.job__txt {
+    width: 437px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+
+.job__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: $color-black;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-white;
+    text-decoration: none;
+}
+
+
+// ------------older-------------
+
+.older {
+    margin: 0 180px;
+}
+
+.older__ttl {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.older__txt {
+    width: 650px;
+    margin-bottom: 80px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.older__container {
+    display: flex;
+    height: 730px;
+    margin-bottom: 80px;
+}
+
+.older__box:nth-child(2) {
+    align-self: flex-end;
+}
+
+.older__pic {
+    width: 426px;
+    height: 492px;
+}
+
+.older__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.older__unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    left: 22px;
+    width: 427px;
+    height: 191px;
+    margin-right: 140px;
+    padding-left: 40px;
+    background: #ccc;
+}
+
+.older__sub {
+    width: 348px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.older__sub__2 {
+    font-size: 13px;
+}
+
+.older__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background: $color-black;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-white;
+    text-decoration: none;
+}
